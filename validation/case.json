@@ -1,0 +1,27 @@
+{
+  "repo": "google-research/spherical-cnn",
+  "base_branch": "main",
+  "base": "136a3c81d32b0238d82e858fcc79f5dba3206d5e",
+  "source": "spherical_cnn/weather/input_pipeline.py",
+  "test": "spherical_cnn/weather/input_pipeline_stats_test.py",
+  "suite_args": [
+    "spherical_cnn/weather/input_pipeline_stats_test.py"
+  ],
+  "original-final": [
+    14,
+    11,
+    0,
+    0
+  ],
+  "restored-final": [
+    14,
+    0,
+    0,
+    0
+  ],
+  "issue": 46,
+  "issue_url": "https://github.com/google-research/spherical-cnn/issues/46",
+  "branch": "fix/independent-keisler-stats-20260928",
+  "title": "Keep Keisler rollout statistics local to each dataset",
+  "head": "a7e11d8ddb6f7ac63609af19fd8f11bf18de889f"
+}
